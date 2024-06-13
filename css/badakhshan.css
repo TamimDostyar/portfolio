@@ -1,0 +1,35 @@
+.header {
+    background-color: #1b323e;
+      box-shadow: 0 0.1rem 1rem var(--shadow-color);
+      width: 101%;
+      padding-left: 41px;
+      padding: 21px;
+      position: relative;
+      right: 10px;
+      padding-bottom: 26px;
+     }
+     
+     .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 36%;
+    position: relative;
+    right: 5px;
+     }
+     
+     .navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+     }
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        border: none;
+        outline: none;
+        scroll-behavior: smooth;
+        font-family: 'Poppins', sans-serif;
+    }
